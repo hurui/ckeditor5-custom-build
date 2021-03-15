@@ -1,0 +1,6 @@
+name: Yarn Package Publish
+uses: luvies/action-yarn-publish@v0.1.1
+
+on:
+  release:
+    types: [created]
